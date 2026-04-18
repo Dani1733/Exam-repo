@@ -194,6 +194,7 @@ namespace examBE_MovieCatalog_DH
             Assert.That(response.Content, Is.EqualTo("{\"msg\":\"Unable to delete the movie! Check the movieId parameter or user verification!\"}"));
         }
 
+        // minor changes - just for testing purposes
 
         [OneTimeTearDown]
 
